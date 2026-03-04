@@ -1,13 +1,8 @@
-/* Custom Styling for Spice Delight Restaurant */
-
-/* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap');
 
 :root {
     --primary-color: #720000;
-    /* Richer Crimson */
     --secondary-color: #c5a028;
-    /* Deep Gold */
     --accent-color: #ff4d4d;
     --text-dark: #1a1a1a;
     --text-muted: #6c757d;
@@ -35,7 +30,6 @@ h4,
     font-family: 'Playfair Display', serif;
 }
 
-/* Navbar */
 .navbar {
     background-color: var(--bg-light) !important;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -59,7 +53,6 @@ h4,
     color: var(--primary-color) !important;
 }
 
-/* Hero Section */
 .hero-section {
     position: relative;
     height: 80vh;
@@ -103,7 +96,6 @@ h4,
     box-shadow: 0 5px 15px rgba(139, 0, 0, 0.3);
 }
 
-/* Sections */
 section {
     padding: 80px 0;
 }
@@ -132,7 +124,6 @@ section {
     transform: translateX(-50%);
 }
 
-/* Cards */
 .card {
     border: none;
     border-radius: 15px;
@@ -158,7 +149,6 @@ section {
     font-size: 1.2rem;
 }
 
-/* Products/About images */
 .about-img,
 .product-main-img {
     border-radius: 20px;
@@ -167,14 +157,12 @@ section {
     height: auto;
 }
 
-/* Services */
 .service-icon {
     font-size: 3rem;
     color: var(--secondary-color);
     margin-bottom: 20px;
 }
 
-/* Contact Form */
 .form-control {
     padding: 12px;
     border-radius: 8px;
@@ -186,7 +174,6 @@ section {
     box-shadow: 0 0 0 0.2rem rgba(139, 0, 0, 0.1);
 }
 
-/* Responsive Overrides */
 @media (max-width: 768px) {
     .hero-content h1 {
         font-size: 2.8rem;
@@ -205,7 +192,6 @@ section {
     }
 }
 
-/* Animations */
 @keyframes fadeInUp {
     from {
         opacity: 0;
@@ -233,8 +219,8 @@ section.visible {
     transform: translateY(0);
 }
 
-/* Since the user doesn't want JS, I'll make sections visible by default but styled nicely */
 section {
     opacity: 1;
     transform: none;
+
 }
